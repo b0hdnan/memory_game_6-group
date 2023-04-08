@@ -30,7 +30,7 @@ let persons = [
   },
   {
     name: "В’ячеслав Чорновіл",
-    img: "./img/v'yacheslav.png"
+    img: "./img/vyacheslav.png"
   },
   {
     name: "Іван Дзюба",
@@ -46,7 +46,7 @@ let persons = [
   },
   {
     name: "Іван Миколайчук",
-    img: "./img/ivan m.png"
+    img: "./img/ivanm.png"
   }
 ];
 let tiles = [];
