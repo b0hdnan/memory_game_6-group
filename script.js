@@ -9,8 +9,8 @@ let persons = [
     img: "./img/yosif.png"
   },
   {
-    name: "Левко Лук'яненко",
-    img: "./img/ivan m.png"
+    name: "Тарас Шевченко",
+    img: "./img/taras_shevchenko.png"
   },
   {
     name: "Іван Миколайчук",
