@@ -10,43 +10,43 @@ let persons = [
   },
   {
     name: "Левко Лук'яненко",
-    img: "http://surl.li/gdznp"
+    img: "./vasil.png"
   },
   {
-    name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
+    name: "Іван Котляретський",
+    img: "./ivan_kotlyarevskiy.png"
   },
   {
     name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
+    img: "./"
   },
   {
     name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
+    img: "./"
   },
   {
     name: "Степан Бандера",
-    img: "http://surl.li/gbjzp"
+    img: "./"
   },
   {
     name: "Євген Коновалець",
-    img: "http://surl.li/gblax"
+    img: "./"
   },
   {
     name: "Левко Лук'яненко",
-    img: "http://surl.li/gdznp"
+    img: "./"
   },
   {
     name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
+    img: "./"
   },
   {
     name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
+    img: "./"
   },
   {
-    name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
+    name: "Тарас Шевченко",
+    img: "./taras_shevchenco"
   }
 ];
 let tiles = [];
