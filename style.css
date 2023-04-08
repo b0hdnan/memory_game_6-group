@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --tileWth: 60px;
-  --tileHht: 100px;
+  --tileWth: 90px;
+  --tileHht: 160px;
 }
 body {
   display: flex;
