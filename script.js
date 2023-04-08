@@ -13,40 +13,40 @@ let persons = [
     img: "./img/taras_shevchenko.png"
   },
   {
+    name: "Павло Тетеря",
+    img: "./img/Pavlo_Teteri.jpg"
+  },
+  {
+    name: "Іван Франко",
+    img: "./img/ivan_franko.png"
+  },
+  {
+    name: "Олесь Гончар",
+    img: "./img/oles.png"
+  },
+  {
+    name: "Василь Стус",
+    img: "./img/vasil.png"
+  },
+  {
+    name: "В’ячеслав Чорновіл",
+    img: "./img/v'yacheslav.png"
+  },
+  {
+    name: "Іван Дзюба",
+    img: "./img/ivan.png"
+  },
+  {
+    name: "Іван Сірко",
+    img: "./img/Ivan_Sirko.png"
+  },
+  {
+    name: "Петро Григоренко",
+    img: "./img/petr.png"
+  },
+  {
     name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
-  },
-  {
-    name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
-  },
-  {
-    name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
-  },
-  {
-    name: "Степан Бандера",
-    img: "http://surl.li/gbjzp"
-  },
-  {
-    name: "Євген Коновалець",
-    img: "http://surl.li/gblax"
-  },
-  {
-    name: "Левко Лук'яненко",
-    img: "http://surl.li/gdznp"
-  },
-  {
-    name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
-  },
-  {
-    name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
-  },
-  {
-    name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
+    img: "./img/ivan m.png"
   }
 ];
 let tiles = [];
