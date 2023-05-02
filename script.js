@@ -191,9 +191,26 @@ let r = 1
 
 //jjj
 
+function soundClick() {
+  const audio = new Audio(); // Создаём новый элемент Audio
+  audio.src = '/mp/apovabin-around-the-phonk.mp3'; // Указываем путь к звуку "клика"
+  audio.autoplay = true; // Автоматически запускаем
+}
 
 
+/*let audio = new Audio();
+audio.volume = .25; // Чтобы не испугать пользователя
 
-
-
+document.querySelector('#play').addEventListener('click', function(e){
+  if(e.target.value === 'Воспроизвести') {
+    e.target.value = 'Остановить';
+    audio.src = e.target.getAttribute('data-url');
+    audio.play();
+  } else {
+    e.target.value = 'Воспроизвести';
+    audio.currentTime = 0;
+    audio.pause();
+  }
+});
+*/
 
