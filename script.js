@@ -191,11 +191,20 @@ let r = 1
 
 //jjj
 
-function soundClick() {
-  const audio = new Audio(); // Создаём новый элемент Audio
-  audio.src = '/mp/apovabin-around-the-phonk.mp3'; // Указываем путь к звуку "клика"
-  audio.autoplay = true; // Автоматически запускаем
-}
+/*function soundClick() {*/
+
+  //const audio = new Audio(); // Создаём новый элемент Audio
+  //audio.src = '/mp/apovabin-around-the-phonk.mp3'; // Указываем путь к звуку "клика"
+  //audio.autoplay = true; // Автоматически запускаем
+
+  /*if(f % 2 == 0) {
+    audio.play();
+  } else {
+    audio.pause();
+  }*/
+ 
+//} 
+ 
 
 
 /*let audio = new Audio();
@@ -213,4 +222,32 @@ document.querySelector('#play').addEventListener('click', function(e){
   }
 });
 */
+/* playPauseButton = document.querySelector('#playPauseButton')
+ rightButton = document.querySelector('#rightButton')
+ leftButton = document.querySelector("#leftButton")
+const audio = new Audio()
+let array = ['/mp/apovabin-around-the-phonk.mp3', '/mp/bozhe_yake_konchene.mp3'];
+audio.src = '/mp/apovabin-around-the-phonk.mp3';
+let index = 0;
+rightButton.onclick = function(){selecting_track(1)};
+leftButton.onclick = function(){selecting_track(-1)};
+function selecting_track(direction){
+    index += direction;
+    if(index >= array.length) index = 0;
+    if(index < 0) index = array.length - 1;
+    audio.src = url + array[index];
+    audio.play();
+    playPauseButton.innerText = 'pause';
+     // ... тут меняем надписи на элементах ...
+}
 
+function run(){
+    if(audio.paused){
+        audio.play();
+        this.innerText = 'pause';
+    }else{
+        audio.pause();
+        this.innerText = 'play';
+    }
+}
+*/let audio = new Audio()

@@ -19,8 +19,41 @@
 	<div class="board" id="board"></div>
 	<script src="script.js"></script>
 
-	<audio src="./mp/apovabin-around-the-phonk.mp3" autoplay="autoplay"></audio>
+	
 	<p onclick="soundClick()">Кликни по этому тексту</p>
+
+<!--  <button id=playPauseButton >play</button>
+<button id=leftButton> << </button>
+<button id=rightButton> >> </button>-->
+
+<button id=playPauseButton>play</button>
+<button id=leftButton> << </button>
+<button id=rightButton> >> </button>
+<script>
+let array = ['/mp/bozhe_yake_konchene.mp3', '/mp/apovabin-around-the-phonk.mp3'];
+audio.src = '/mp/bozhe_yake_konchene.mp3';
+let index = 0;
+rightButton.onclick = function(){selecting_track(1)};
+leftButton.onclick = function(){selecting_track(-1)};
+function selecting_track(direction){
+    index += direction;
+    if(index >= array.length) index = 0;
+    if(index < 0) index = array.length - 1;
+    audio.src =  array[index];
+    audio.play();
+    playPauseButton.innerText = 'pause';
+
+}
+playPauseButton.onclick = function(){
+    if(audio.paused){
+        audio.play();
+        this.innerText = 'pause';
+    }else{
+        audio.pause();
+        this.innerText = 'play';
+    }
+}
+</script>
 
 </body>
 </html>
