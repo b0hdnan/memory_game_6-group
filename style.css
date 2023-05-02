@@ -157,3 +157,35 @@ p{
   left: -2px;
   animation: animatedchoosen 2s ease alternate infinite;
 }
+.music{
+  align-self: self-end;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin: -20px;
+  padding: 30px;
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  background: #000;
+  border-radius: 20px;
+}
+
+#playPauseButton{
+  width: 100px;
+  height: 60px;
+  font-size: larger;
+  font-weight: 700;
+  color: #b52a2ad1;
+  border-radius: 10px;
+  border-color: #008cff;
+}
+#leftButton, #rightButton{
+  width: 70px;
+  height: 60px;
+  font-size: larger;
+  font-weight: 1000;
+  color: #03ff18;
+  border-radius: 10px;
+  border-color: #ffd900;
+}
